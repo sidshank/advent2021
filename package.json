@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sidshank/advent2021/issues"
   },
-  "homepage": "https://github.com/sidshank/advent2021#readme"
+  "homepage": "https://github.com/sidshank/advent2021#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
