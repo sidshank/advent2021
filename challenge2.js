@@ -1,7 +1,7 @@
 const path = require('path');
 const readLinesInFile = require('./utils/readLinesInFile');
 
-const input = readLinesInFile(path.join(__dirname, 'challenge2_input.js'));
+const input = readLinesInFile(path.join(__dirname, 'challenge2_input.txt'));
 
 function convertLineToInstruction(line) {
     const [direction, magnitude] = line.split(' ');

@@ -1,7 +1,7 @@
 const path = require('path');
 const readLinesInFile = require('./utils/readLinesInFile');
 
-const input = readLinesInFile(path.join(__dirname, 'challenge1_input.js'));
+const input = readLinesInFile(path.join(__dirname, 'challenge1_input.txt'));
 
 function findNumberOfIncreases(numbers) {
     return numbers.reduce((increases, current, index) => {
