@@ -20,7 +20,7 @@ const [straightLineCoordinatePairs, diagonalLineCoordinatePairs] = partition(
     (coordinatePair) => isStraightLine(coordinatePair)
 );
 
-console.log(`========== Challenge 4 ==========`);
+console.log(`========== Challenge 5 ==========`);
 
 function getStepValue(start, end) {
     return start > end ? -1 : 1;
